@@ -1,0 +1,33 @@
+{
+  "name": "@seline-analytics/mcp",
+  "version": "1.0.1",
+  "type": "module",
+  "description": "Local MCP server for Seline Analytics API",
+  "scripts": {
+    "lint": "biome lint --write .",
+    "format": "biome format --write .",
+    "publish": "pnpm publish --access public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "src/index.js",
+  "bin": {
+    "seline-mcp": "src/index.js"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.8",
+    "@changesets/cli": "^2.30.0"
+  }
+}

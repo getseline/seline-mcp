@@ -11,6 +11,7 @@
 </div>
 &nbsp;
 
+[![Seline MCP server](https://glama.ai/mcp/servers/getseline/seline-mcp/badges/card.svg)](https://glama.ai/mcp/servers/getseline/seline-mcp)
 
 Seline MCP runs over stdio and sends tool requests to the [Seline public API](https://seline.com/api/overview) using your API key (Settings → Integrations).
 

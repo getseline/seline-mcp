@@ -1,6 +1,7 @@
 {
   "name": "@seline-analytics/mcp",
-  "version": "1.0.1",
+  "mcpName": "io.github.getseline/seline-mcp",
+  "version": "1.0.2",
   "type": "module",
   "description": "Local MCP server for Seline Analytics API",
   "scripts": {
@@ -19,6 +20,10 @@
     "src",
     "README.md"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getseline/seline-mcp.git"
+  },
   "publishConfig": {
     "access": "public"
   },

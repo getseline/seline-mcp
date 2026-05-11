@@ -58,8 +58,33 @@ Then restart Codex and confirm the `seline_*` tools appear.
 
 ## Tools
 
+Data over time:
+
 - `seline_get_data` -> `POST /api/v1/data`
 - `seline_get_charges` -> `POST /api/v1/charges`
+
+Counts and totals:
+
+- `seline_get_top_visitors` -> `POST /api/v1/stats`
 - `seline_get_visit_metrics` -> `POST /api/v1/visit-metrics`
 - `seline_get_custom_events` -> `POST /api/v1/custom-events`
-- `seline_get_top_visitors` -> `POST /api/v1/stats`
+- `seline_get_exit_pages` -> `POST /api/v1/exit-pages`
+
+Events and properties:
+
+- `seline_get_events` -> `POST /api/v1/events`
+- `seline_get_property_values` -> `POST /api/v1/property-values`
+- `seline_get_field_keys` -> `POST /api/v1/event-data`
+- `seline_get_field_values` -> `POST /api/v1/field-values`
+
+Funnels:
+
+- `seline_get_funnel` -> `POST /api/v1/funnel`
+
+Visitors:
+
+- `seline_get_visitors` -> `POST /api/v1/visitors`
+- `seline_get_visitor` -> `POST /api/v1/visitor`
+- `seline_get_visitor_events` -> `POST /api/v1/visitor-events`
+- `seline_get_most_active_visitors` -> `POST /api/v1/most-active-visitors`
+- `seline_get_visitor_insight` -> `POST /api/v1/visitor-insight`

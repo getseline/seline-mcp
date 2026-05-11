@@ -436,7 +436,7 @@ function registerTools(server) {
   );
 
   server.registerTool(
-    "seline_get_event_data",
+    "seline_get_field_keys",
     {
       description:
         "Get all custom field keys and the top 100 used values for each, for a specific custom event. Useful for discovering what data is attached to an event (POST /api/v1/event-data).",

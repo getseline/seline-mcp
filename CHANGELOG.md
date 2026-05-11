@@ -1,5 +1,11 @@
 # @seline-analytics/mcp
 
+## 1.0.3
+
+### Patch Changes
+
+- Add more tools
+
 ## 1.0.2
 
 ### Patch Changes
